@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorial:item"
+    }
+  ],
+  "result":
+  {
+    "item": "tutorial:item",
+    "count": 1
+  }
+}

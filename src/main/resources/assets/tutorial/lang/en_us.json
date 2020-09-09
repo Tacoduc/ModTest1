@@ -1,0 +1,18 @@
+{
+ "item.tutorial.mud": "Mud",
+ "block.tutorial.mud_block": "Block Of Mud",
+ "ItemGroup.Tab": "ModTest",
+ "item.tutorial.mud_sword": "Mud Sword",
+ "item.tutorial.mud_pickaxe": "Mud Pickaxe",
+ "item.tutorial.mud_axe": "Mud Axe",
+ "item.tutorial.mud_shovel": "Mud Shovel",
+ "item.tutorial.mud_hoe": "Mud Hoe",
+ "item.tutorial.rainbow_gem": "Rainbow Gem",
+ "item.tutorial.mud_helmet": "Mud Helmet",
+ "item.tutorial.mud_chestplate": "Mud Chestplate",
+ "item.tutorial.mud_leggings": "Mud Leggings",
+ "item.tutorial.mud_boots": "Mud Boots",
+ "item.tutorial.prism": "Prism",
+ "item.tutorial.prism_sword": "Prism Sword",
+ "item.tutorial.paper_sword": "Paper Sword"
+}
