@@ -34,13 +34,13 @@ public class ModOreGen {
 
             //End Generation
             } else if (biome.getCategory() == Biome.Category.THEEND) {
-                genOre(biome, 18, 3, 5, 80, END_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 12);
+                genOre(biome, 10, 3, 5, 80, END_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 12);
 
 
 
                 //World Generation
             } else {
-                genOre(biome, 15, 1, 5, 25, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 6);
+                genOre(biome, 8, 1, 5, 15, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 6);
 
               }
             }
