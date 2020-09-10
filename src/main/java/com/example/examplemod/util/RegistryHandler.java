@@ -8,6 +8,7 @@ import com.example.examplemod.Items.ItemBase;
 import com.example.examplemod.Tutorial;
 import com.example.examplemod.blocks.PrismOre;
 import net.minecraft.block.Block;
+import net.minecraft.block.OreBlock;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -48,7 +49,7 @@ public class RegistryHandler {
     //Prism Stuff
     public static final RegistryObject<SwordItem>PRISM_SWORD = ITEMS.register("prism_sword", () -> new SwordItem(ModItemTier.MUD,
             5, -1.4F, new Item.Properties().group(Tutorial.TAB)));
-    public static final RegistryObject<Block> PRISM_ORE = BLOCKS.register("prism_ore", PrismOre::new);
+    public static final RegistryObject<OreBlock> PRISM_ORE = BLOCKS.register("prism_ore", PrismOre::new);
 
 
 
