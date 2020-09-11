@@ -16,5 +16,10 @@
  "item.tutorial.prism_sword": "Prism Sword",
  "item.tutorial.paper_sword": "Paper Sword",
  "item.tutorial.leaf": "Leaf",
- "item.tutorial.cupcake": "Cupcake"
+ "item.tutorial.cupcake": "Cupcake",
+ "item.tutorial.plastic_sword": "Plastic Sword",
+ "item.tutorial.plastic_axe": "Plastic Axe",
+ "item.tutorial.plastic_pickaxe": "Plastic Pickaxe",
+ "item.tutorial.plastic_shovel": "Plastic Shovel",
+ "item.tutorial.plastic_hoe": "Plastic Hoe"
 }
