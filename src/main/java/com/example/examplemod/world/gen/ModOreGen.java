@@ -40,7 +40,7 @@ public class ModOreGen {
 
                 //World Generation
             } else {
-                genOre(biome, 8, 1, 5, 15, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 6);
+                genOre(biome, 8, 1, 5, 25, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.PRISM_ORE.get().getDefaultState(), 6);
 
               }
             }

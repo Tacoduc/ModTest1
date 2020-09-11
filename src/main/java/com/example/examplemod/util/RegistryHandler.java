@@ -29,6 +29,8 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> MUD = ITEMS.register("mud", ItemBase::new);
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
+    public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
+    public static final RegistryObject<Item> CUPCAKE = ITEMS.register("cupcake", ItemBase::new);
 
     //Mud Tools
     public static final RegistryObject<SwordItem> MUD_SWORD = ITEMS.register("mud_sword", () ->
