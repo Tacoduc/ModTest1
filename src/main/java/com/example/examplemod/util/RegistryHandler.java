@@ -4,12 +4,9 @@ import com.example.examplemod.Items.Cherry;
 import com.example.examplemod.Items.Cupcake;
 import com.example.examplemod.ModItemTier;
 import com.example.examplemod.armor.ModArmorMaterial;
-import com.example.examplemod.blocks.BlockItemBase;
-import com.example.examplemod.blocks.MudBlock;
+import com.example.examplemod.blocks.*;
 import com.example.examplemod.Items.ItemBase;
 import com.example.examplemod.Tutorial;
-import com.example.examplemod.blocks.PrismOre;
-import com.example.examplemod.blocks.Shelf;
 import net.minecraft.block.Block;
 import net.minecraft.block.OreBlock;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -70,10 +67,12 @@ public class RegistryHandler {
     //Blocks
     public static final RegistryObject<Block> MUD_BLOCK = BLOCKS.register("mud_block", MudBlock::new);
     public static final RegistryObject<Block> SHELF = BLOCKS.register("shelf", Shelf::new);
+    public static final RegistryObject<Block> NIGHT_STAND = BLOCKS.register("night_stand", NightStand::new);
 
 
     //Block Items
     public static final RegistryObject<Item> MUD_BLOCK_ITEM = ITEMS.register("mud_block", () -> new BlockItemBase(MUD_BLOCK.get()));
     public static final RegistryObject<Item> SHELF_ITEM = ITEMS.register("shelf", ()  -> new BlockItem(SHELF.get(), new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<Item> NIGHT_STAND_ITEM = ITEMS.register("night_stand", ()  -> new BlockItem(NIGHT_STAND.get(), new Item.Properties().group(Tutorial.TAB)));
 
 }
