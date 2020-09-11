@@ -26,12 +26,14 @@ public class RegistryHandler {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
+
+
     //Items
     public static final RegistryObject<Item> MUD = ITEMS.register("mud", ItemBase::new);
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
     public static final RegistryObject<Item> CUPCAKE = ITEMS.register("cupcake", ItemBase::new);
-    public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
+    public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry", ItemBase::new);
 
     //Plastic Tools
     public static final RegistryObject<SwordItem> PLASTIC_SWORD = ITEMS.register("plastic_sword", () ->
@@ -75,7 +77,6 @@ public class RegistryHandler {
     //Paper Stuff
     public static final RegistryObject<SwordItem>PAPER_SWORD = ITEMS.register("paper_sword", () -> new SwordItem(ModItemTier.MUD,
             3, -1.0F, new Item.Properties().group(Tutorial.TAB)));
-
 
 
     //Mud Armor
