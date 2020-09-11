@@ -1,11 +1,9 @@
 package com.example.examplemod.util;
 
-import com.example.examplemod.Items.Cherry;
-import com.example.examplemod.Items.Cupcake;
+import com.example.examplemod.Items.*;
 import com.example.examplemod.ModItemTier;
 import com.example.examplemod.armor.ModArmorMaterial;
 import com.example.examplemod.blocks.*;
-import com.example.examplemod.Items.ItemBase;
 import com.example.examplemod.Tutorial;
 import net.minecraft.block.Block;
 import net.minecraft.block.OreBlock;
@@ -30,9 +28,18 @@ public class RegistryHandler {
     public static final RegistryObject<Item> MUD = ITEMS.register("mud", ItemBase::new);
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
+    public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
+
+    //Consumables
     public static final RegistryObject<Cupcake> CUPCAKE = ITEMS.register("cupcake", Cupcake::new);
     public static final RegistryObject<Cherry> CHERRY = ITEMS.register("cherry", Cherry::new);
-    public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
+    public static final RegistryObject<Onion> ONION = ITEMS.register("onion", Onion::new);
+    public static final RegistryObject<Melon> MELON = ITEMS.register("melon", Melon::new);
+    public static final RegistryObject<Pinqu> PINQU = ITEMS.register("pinqu", Pinqu::new);
+
+
+
+
 
     //Plastic Tools
     public static final RegistryObject<SwordItem> PLASTIC_SWORD = ITEMS.register("plastic_sword", () -> new SwordItem(ModItemTier.MUD, 1, -2.4F, new Item.Properties().group(Tutorial.TAB)));
