@@ -19,6 +19,10 @@ public enum ModItemTier implements IItemTier {
 
     PAPER(1, 800, 5.0F, 3.0F, 6, () ->{
         return Ingredient.fromItems(RegistryHandler.PAPER_SWORD.get());
+    }),
+
+    PLASTIC(1, 500, 6.0F, 2.0F, 15, () ->{
+        return Ingredient.fromItems(RegistryHandler.PLASTIC_SWORD.get());
     });
 
 

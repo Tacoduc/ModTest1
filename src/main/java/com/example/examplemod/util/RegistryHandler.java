@@ -31,6 +31,23 @@ public class RegistryHandler {
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
     public static final RegistryObject<Item> CUPCAKE = ITEMS.register("cupcake", ItemBase::new);
+    public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
+
+    //Plastic Tools
+    public static final RegistryObject<SwordItem> PLASTIC_SWORD = ITEMS.register("plastic_sword", () ->
+            new SwordItem(ModItemTier.MUD, 1, -2.4F, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<PickaxeItem> PLASTIC_PICKAXE = ITEMS.register("plastic_pickaxe", () ->
+            new PickaxeItem(ModItemTier.MUD, 0, -2.2F, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<ShovelItem> PLASTIC_SHOVEL = ITEMS.register("plastic_shovel", () ->
+            new ShovelItem(ModItemTier.MUD, 0, -2.2F, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<AxeItem> PLASTIC_AXE = ITEMS.register("plastic_axe", () ->
+            new AxeItem(ModItemTier.MUD, 3, -2.2F, new Item.Properties().group(Tutorial.TAB)));
+
+    public static final RegistryObject<HoeItem> PLASTIC_HOE = ITEMS.register("plastic_hoe", () ->
+            new HoeItem(ModItemTier.MUD,-1.0F, new Item.Properties().group(Tutorial.TAB)));
 
     //Mud Tools
     public static final RegistryObject<SwordItem> MUD_SWORD = ITEMS.register("mud_sword", () ->
