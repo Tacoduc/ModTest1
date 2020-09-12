@@ -23,6 +23,10 @@ public enum ModItemTier implements IItemTier {
 
     PLASTIC(1, 500, 6.0F, 2.0F, 15, () ->{
         return Ingredient.fromItems(RegistryHandler.PLASTIC_SWORD.get());
+    }),
+
+    LAVA(1, 2000, 6.0F, 260F, 5, () ->{
+        return Ingredient.fromItems(RegistryHandler.LAVA_SWORD.get());
     });
 
 

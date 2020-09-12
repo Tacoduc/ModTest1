@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorial:hardened_lava"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result":
+  {
+    "item": "tutorial:lava_sword",
+    "count": 1
+  }
+}

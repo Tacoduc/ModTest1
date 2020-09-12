@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xs",
+    "s"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "tutorial:hardened_lava"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "tutorial:lava_axe",
+    "count": 1
+  }
+}

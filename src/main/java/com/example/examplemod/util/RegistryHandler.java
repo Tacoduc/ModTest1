@@ -30,8 +30,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
     public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
     public static final RegistryObject<Item> METAL = ITEMS.register("metal", ItemBase::new);
-    public static final RegistryObject<Item> HARDENED_LAVA = ITEMS.register("hardened_lava", ItemBase::new);
-
 
     //Consumables
     public static final RegistryObject<Cupcake> CUPCAKE = ITEMS.register("cupcake", Cupcake::new);
@@ -40,9 +38,12 @@ public class RegistryHandler {
     public static final RegistryObject<Melon> MELON = ITEMS.register("melon", Melon::new);
     public static final RegistryObject<Pinqu> PINQU = ITEMS.register("pinqu", Pinqu::new);
 
-    //Cloth Stuff
-    public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth", ItemBase::new);
-
+    //Lava Stuff
+    public static final RegistryObject<Item> HARDENED_LAVA = ITEMS.register("hardened_lava", ItemBase::new);
+    public static final RegistryObject<SwordItem> LAVA_SWORD = ITEMS.register("lava_sword", () -> new SwordItem(ModItemTier.MUD, 4, -1.4F, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<AxeItem> LAVA_AXE = ITEMS.register("lava_axe", () -> new AxeItem(ModItemTier.MUD, 2, -1.4F, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<PickaxeItem> LAVA_PICKAXE = ITEMS.register("lava_pickaxe", () -> new PickaxeItem(ModItemTier.MUD, 1, -2.4F, new Item.Properties().group(Tutorial.TAB)));
+    public static final RegistryObject<ShovelItem> LAVA_SHOVEL = ITEMS.register("lava_shovel", () -> new ShovelItem(ModItemTier.MUD, 1, -2.4F, new Item.Properties().group(Tutorial.TAB)));
 
 
     //Plastic Tools

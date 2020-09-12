@@ -30,5 +30,9 @@
  "item.tutorial.melon": "Melon",
  "item.tutorial.pinqu": "Pinqu",
  "item.tutorial.metal": "Metal",
- "item.tutorial.hardened_lava": "Hardened Lava"
+ "item.tutorial.hardened_lava": "Hardened Lava",
+ "item.tutorial.lava_sword": "Lava Sword",
+ "item.tutorial.lava_axe": "Lava Axe",
+ "item.tutorial.lava_pickaxe": "Lava Pickaxe",
+ "item.tutorial.lava_shovel": "Lava Shovel"
 }
