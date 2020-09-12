@@ -40,6 +40,9 @@ public class RegistryHandler {
     public static final RegistryObject<Melon> MELON = ITEMS.register("melon", Melon::new);
     public static final RegistryObject<Pinqu> PINQU = ITEMS.register("pinqu", Pinqu::new);
 
+    //Cloth Stuff
+    public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth", ItemBase::new);
+
 
 
     //Plastic Tools
