@@ -30,6 +30,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
     public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
     public static final RegistryObject<Item> METAL = ITEMS.register("metal", ItemBase::new);
+    public static final RegistryObject<Item> HARDENED_LAVA = ITEMS.register("hardened_lava", ItemBase::new);
 
 
     //Consumables
@@ -38,8 +39,6 @@ public class RegistryHandler {
     public static final RegistryObject<Onion> ONION = ITEMS.register("onion", Onion::new);
     public static final RegistryObject<Melon> MELON = ITEMS.register("melon", Melon::new);
     public static final RegistryObject<Pinqu> PINQU = ITEMS.register("pinqu", Pinqu::new);
-
-
 
 
 
