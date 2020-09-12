@@ -29,6 +29,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", ItemBase::new);
     public static final RegistryObject<Item> PLASTIC = ITEMS.register("plastic", ItemBase::new);
+    public static final RegistryObject<Item> METAL = ITEMS.register("metal", ItemBase::new);
+
 
     //Consumables
     public static final RegistryObject<Cupcake> CUPCAKE = ITEMS.register("cupcake", Cupcake::new);
