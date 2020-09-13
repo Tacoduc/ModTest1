@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "Tutorial:block/night_stand" },
-    "facing=south": { "model": "Tutorial:block/night_stand", "y":  180},
-    "facing=west": { "model": "Tutorial:block/night_stand", "y":  270},
-    "facing=east": { "model": "Tutorial:block/night_stand", "y":  90}
+    "facing=north": { "model": "tutorial:block/night_stand" },
+    "facing=south": { "model": "tutorial:block/night_stand", "y":  180},
+    "facing=west": { "model": "tutorial:block/night_stand", "y":  270},
+    "facing=east": { "model": "tutorial:block/night_stand", "y":  90}
   }
 }

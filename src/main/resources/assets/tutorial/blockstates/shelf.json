@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "Tutorial:block/shelf" },
-    "facing=south": { "model": "Tutorial:block/shelf", "y":  180},
-    "facing=west": { "model": "Tutorial:block/shelf", "y":  270},
-    "facing=east": { "model": "Tutorial:block/shelf", "y":  90}
+    "facing=north": { "model": "tutorial:block/shelf" },
+    "facing=south": { "model": "tutorial:block/shelf", "y":  180},
+    "facing=west": { "model": "tutorial:block/shelf", "y":  270},
+    "facing=east": { "model": "tutorial:block/shelf", "y":  90}
   }
 }

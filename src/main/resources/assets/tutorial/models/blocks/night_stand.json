@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "Tutorial:blocks/night_stand",
-		"particle": "Tutorial:blocks/night_stand"
+		"0": "tutorial:blocks/night_stand",
+		"particle": "tutorial:blocks/night_stand"
 	},
 	"elements": [
 		{

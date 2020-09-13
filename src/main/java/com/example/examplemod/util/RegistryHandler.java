@@ -24,6 +24,7 @@ public class RegistryHandler {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
+
     //Items
     public static final RegistryObject<Item> MUD = ITEMS.register("mud", ItemBase::new);
     public static final RegistryObject<Item> PRISM = ITEMS.register("prism", ItemBase::new);
