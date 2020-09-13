@@ -34,5 +34,6 @@
  "item.tutorial.lava_sword": "Lava Sword",
  "item.tutorial.lava_axe": "Lava Axe",
  "item.tutorial.lava_pickaxe": "Lava Pickaxe",
- "item.tutorial.lava_shovel": "Lava Shovel"
+ "item.tutorial.lava_shovel": "Lava Shovel",
+ "block.tutorial.xbox": "Xbox"
 }
