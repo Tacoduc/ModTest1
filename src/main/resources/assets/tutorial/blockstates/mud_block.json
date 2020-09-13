@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "tutorial:blocks/mud_block" }
+    "": { "model": "tutorial:block/mud_block" }
   }
 }
